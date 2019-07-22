@@ -1,3 +1,19 @@
+
 h1, h2 {
   font-family: Lato;
+}
+h3 {
+    color: #fff;
+}
+
+/* From https://jsfiddle.net/Wc4xt/1052 */
+.panel-heading a:after {
+    font-family: 'fontawesome';
+    content: "\f07d";
+    float: right;
+    color: grey;
+}
+.panel-heading {
+    cursor: pointer;
+    cursor: hand;
 }
